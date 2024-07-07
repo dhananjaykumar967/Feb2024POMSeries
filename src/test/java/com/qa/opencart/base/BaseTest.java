@@ -35,7 +35,6 @@ public class BaseTest {
 	@Parameters({ "browser" })
 	@BeforeTest
 	public void setUp(@Optional("chrome") String browserName) {
-		System.setProperty("env","qa");
 		df = new DriverFactory();
 		prop = df.initProp();
 

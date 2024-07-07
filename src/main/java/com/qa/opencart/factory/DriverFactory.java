@@ -32,7 +32,7 @@ public class DriverFactory {
 
 	/**
 	 * This is used to init the driver on the basis on given browser name.
-	 * 
+	 *
 	 * @param browserName
 	 */
 	public WebDriver initDriver(Properties prop) {
